@@ -35,10 +35,10 @@ If the sample space consists of n possible outcomes which are equally likely (i.
 
 Consider a probability law, and let A, B, and C be events.
 
-- (a) $ IfA⊂B,thenP(A)≤P(B). $
-- (b) $ P(A∪B)=P(A)+P(B)−P(A∩B). $
-- (c) $ P(A∪B)≤P(A)+P(B). $
-- (d) $ P(A∪B∪C)=P(A)+P(Ac ∩B)+P(Ac ∩Bc ∩C). $
+- (a) $IfA⊂B,thenP(A)≤P(B).$
+- (b) $P(A∪B)=P(A)+P(B)−P(A∩B).$
+- (c) $P(A∪B)≤P(A)+P(B).$
+- (d) $P(A∪B∪C)=P(A)+P(Ac ∩B)+P(Ac ∩Bc ∩C).$
 
 # Venn disgrams
 
@@ -77,4 +77,4 @@ Consider a probability law, and let A, B, and C be events.
 ### Either (i) event occurs, or (ii) neither or occurs.
 
 - Regions: 1 2 3 4 6 8
-- $ B \cup (B^c \cap C^c) $
+- $B \cup (B^c \cap C^c)$
