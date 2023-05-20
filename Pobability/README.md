@@ -12,7 +12,7 @@
 
    More generally, if the sample space has an infinite number of elements and A1 , A2 , . . . is a sequence of disjoint events, then the probability of their union satisfies
 
-   $$ P(A1 ∪A2 ∪···) = {P(A1)+P(A2)+···}. $$
+   $$P(A1 ∪A2 ∪···) = {P(A1)+P(A2)+···}.$$
 
 3. (**Normalization**) The probability of the entire sample space Ω is equal to 1, that is, P(Ω) = 1.
 
