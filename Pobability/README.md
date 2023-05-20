@@ -8,7 +8,8 @@
 
 1. (**Nonnegativity**) P(A) ≥ 0, for every event A.
 2. (**Additivity**) If A and B are two disjoint events, then the probability of their union satisfies
-   $$ P(A ∪ B) = {P(A) + P(B)}. $$
+   
+   $ P(A ∪ B) = {P(A) + P(B)}. $
    
    This sentence uses `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$
 
