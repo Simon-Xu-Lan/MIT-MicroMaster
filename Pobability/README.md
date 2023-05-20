@@ -16,6 +16,7 @@
    $$P(A1 ∪A2 ∪···) = {P(A1)+P(A2)+···}.$$
 
 3. (**Normalization**) The probability of the entire sample space Ω is equal to 1, that is, 
+   
    $P(Ω) = 1.$
 
 # Discrete Probability Law
