@@ -9,11 +9,11 @@
 1. (**Nonnegativity**) P(A) ≥ 0, for every event A.
 2. (**Additivity**) If A and B are two disjoint events, then the probability of their union satisfies
    
-   $$P(A ∪ B) = {P(A) + P(B)}$$
+   $P(A ∪ B) = {P(A) + P(B)}$
 
    More generally, if the sample space has an infinite number of elements and A1 , A2 , . . . is a sequence of disjoint events, then the probability of their union satisfies
 
-   $$P(A1 ∪A2 ∪···) = {P(A1)+P(A2)+···}.$$
+   $P(A1 ∪A2 ∪···) = {P(A1)+P(A2)+···}.$
 
 3. (**Normalization**) The probability of the entire sample space Ω is equal to 1, that is, 
    
