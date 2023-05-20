@@ -22,7 +22,8 @@
 # Discrete Probability Law
 
 If the sample space consists of a finite number of possible outcomes, then the probability law is specified by the probabilities of the events that consist of a single element. In particular, the probability of any event {s1, s2, . . . , sn} is the sum of the probabilities of its elements:
-$$ P({s1, s2, . . . , sn}) = {P(s1) + P(s2) + · · · + P(sn)}. $$
+
+$P({s1, s2, . . . , sn}) = {P(s1) + P(s2) + · · · + P(sn)}.$
 
 # Discrete Uniform Probability Law
 
