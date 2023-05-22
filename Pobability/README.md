@@ -10,6 +10,7 @@
 2. (**Additivity**) If A and B are two disjoint events, then the probability of their union satisfies
    
    $P(A ∪ B) = {P(A) + P(B)}$
+   $N = {1, 2, 3, 4, . . .}$
 
    More generally, if the sample space has an infinite number of elements and A1 , A2 , . . . is a sequence of disjoint events, then the probability of their union satisfies
 
