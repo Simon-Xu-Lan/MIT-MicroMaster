@@ -11,8 +11,7 @@
    
    $P(A ∪ B) = {P(A) + P(B)}$
    
-   $N = {1, 2, 3, 4, . . .}$
-
+   $x + 5 = 9$
    More generally, if the sample space has an infinite number of elements and A1 , A2 , . . . is a sequence of disjoint events, then the probability of their union satisfies
 
    $P(A1 ∪A2 ∪···) = {P(A1)+P(A2)+···}.$
