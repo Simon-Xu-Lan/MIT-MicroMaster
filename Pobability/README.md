@@ -81,4 +81,5 @@ Consider a probability law, and let A, B, and C be events.
 
 # Conditional Probabilites
 $P(A|B) =$ "probability of A given that B occured"
-$P(A|B) = P(A \cap B) \over P(B)$
+
+$P(A|B) = {P(A \cap B) \over P(B)}$
