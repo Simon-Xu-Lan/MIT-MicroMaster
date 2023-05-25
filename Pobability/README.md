@@ -83,3 +83,6 @@ Consider a probability law, and let A, B, and C be events.
 $P(A|B) =$ "probability of A given that B occured"
 
 $P(A|B) = {P(A \cap B) \over P(B)}$
+
+Exercise
+1. If $\omega$ is finite and we have a discrete uniform probability law, and if $B \neq 0$, then the conditional probability law on B given that B occurred, is also discrete uniform.
