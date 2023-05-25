@@ -86,7 +86,9 @@ $P(A|B) = {P(A \cap B) \over P(B)}$
 
 Exercise
 1. If Ω is finite and we have a discrete uniform probability law, and if $B \neq 0$, then the conditional probability law on B given that B occurred, is also discrete uniform.
-        - True, because the outcomes inside  maintain the same relative proportions as in the original probability law.
+        
+   - True, because the outcomes inside B  maintain the same relative proportions as in the original probability law.
 
 2. If Ω is finite and we have a discrete uniform probability law, and if $B \neq 0$, then the conditional probability law on Ω, given that B occurred, is also discrete uniform.
-        - False. Outcomes in Ω that are outside B have zero conditional probability, so it cannot be the case that all outcomes in Ω have the same conditional probability.
+        
+   - False. Outcomes in Ω that are outside B have zero conditional probability, so it cannot be the case that all outcomes in Ω have the same conditional probability.
