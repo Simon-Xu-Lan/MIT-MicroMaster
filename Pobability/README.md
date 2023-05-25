@@ -78,3 +78,7 @@ Consider a probability law, and let A, B, and C be events.
 
 - Regions: 1 2 3 4 6 8
 - $B \cup (B^c \cap C^c)$
+
+# Conditional Probabilites
+$P(A|B) =$ "probability of A given that B occured"
+$P(A|B) = P(A \cap B) \over P(B)$
