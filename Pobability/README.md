@@ -113,6 +113,10 @@ $P(A \cap B \cap C) = P(A)P(A|B)P(A|A \cap B)$
 
 ![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/fd4ae164-14b2-4ba6-b543-d4c5a0df984e)
 
+#### Total probability theorem
+In words, the probability that an event occurs is a weighted average of the probability that it has under each possible scenario, where the weights are the probabilities of the different scenarios.
+
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/fb146d01-ae45-4121-b171-ac7cdf68d5dd)
 
 
         
