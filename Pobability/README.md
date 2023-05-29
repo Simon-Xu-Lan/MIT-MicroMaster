@@ -94,3 +94,9 @@ Exercise
    - **False**. Outcomes in Ω that are outside B have zero conditional probability, so it cannot be the case that all outcomes in Ω have the same conditional probability.
 4. [die roll example](https://learning.edx.org/course/course-v1:MITx+6.431x+2T2023/block-v1:MITx+6.431x+2T2023+type@sequential+block@Lec__2_Conditioning_and_Bayes_rule/block-v1:MITx+6.431x+2T2023+type@vertical+block@ch4-s2-tab4)
 5. $IF A \cap C = \phi, then P(A \cup C | B) = P(A | B) + P(C | B)$
+
+### 
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/26653816-6816-4c60-af79-eb0b2cadf799)
+
+
+        
