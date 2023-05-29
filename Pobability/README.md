@@ -95,8 +95,16 @@ Exercise
 4. [die roll example](https://learning.edx.org/course/course-v1:MITx+6.431x+2T2023/block-v1:MITx+6.431x+2T2023+type@sequential+block@Lec__2_Conditioning_and_Bayes_rule/block-v1:MITx+6.431x+2T2023+type@vertical+block@ch4-s2-tab4)
 5. $IF A \cap C = \phi, then P(A \cup C | B) = P(A | B) + P(C | B)$
 
-### 
+### 7. A radar example: models based on conditional probabilities and three basic tools
 ![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/26653816-6816-4c60-af79-eb0b2cadf799)
+
+### The Multiplication Rule
+
+$P(A|B) = {P(A \cap B) \over P(B)}$
+
+#### The probability that two events occur is equal to the probability that a first event occurs, event B in this case, times the conditional probability that the second event, event A, occurs, given that event B has occurred.
+We are free to choose which one (A or B) as the first event.
+$P(A \cap B) = P(B)P(A|B) = P(A)P(B|A)$
 
 
         
