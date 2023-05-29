@@ -104,7 +104,12 @@ $P(A|B) = {P(A \cap B) \over P(B)}$
 
 #### The probability that two events occur is equal to the probability that a first event occurs, event B in this case, times the conditional probability that the second event, event A, occurs, given that event B has occurred.
 We are free to choose which one (A or B) as the first event.
+
 $P(A \cap B) = P(B)P(A|B) = P(A)P(B|A)$
+
+In other words, we can calculate the probability of a leaf by just multiplying the probabilities of the different branches involved and where we use conditional probabilities for the intermediate branches.
+
+$P(A \cap B \cap C) = P(A)P(A|B)P(A|A \cap B)$
 
 
         
