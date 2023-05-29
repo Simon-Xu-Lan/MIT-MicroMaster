@@ -118,5 +118,8 @@ In words, the probability that an event occurs is a weighted average of the prob
 
 ![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/fb146d01-ae45-4121-b171-ac7cdf68d5dd)
 
+### Bayes' Rule
+
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/7389f534-86a1-4f7c-9751-96c78c51f47c)
 
         
