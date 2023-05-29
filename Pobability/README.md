@@ -111,5 +111,8 @@ In other words, we can calculate the probability of a leaf by just multiplying t
 
 $P(A \cap B \cap C) = P(A)P(A|B)P(A|A \cap B)$
 
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/fd4ae164-14b2-4ba6-b543-d4c5a0df984e)
+
+
 
         
