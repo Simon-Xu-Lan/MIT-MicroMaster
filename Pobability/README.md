@@ -196,5 +196,51 @@ But if the conditional probability turns out to be the same as the unconditional
 ![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/e1c195f7-a011-49bb-9529-87e0aeb0c340)
 
 **$A$ and $B$ independent => $A$ and $B^c$ independent => $B^c$ and $A$ independent => $B^c$ and $A^c$ independent => $A^c$ and $B^c$ independent**
-   
+
+### 9. Conditional independence
+- Definaiton of conditional independence
+  - $P(A \cap B | C) = P(A|C)P(B|C)$
+  ![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/3cb541a9-83fd-44c9-98d8-e7e4c34683dd)
+
+#### Is there a relation between independence and conditional independence? Does one imply the other?
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/a0d4e4e4-f2dc-4800-ac6c-46a797eadb3b)
+
+- in the new universe where C has happened, events A and B have no intersection.
+- this means that events A and B are extremely dependent.
+  - Within C, if A occurs, this tells us that B did not occur.
+- **The conclusion from this example is that independence does not imply conditional independence.**
+  - **Given C A and B are not independent.**
+
+  - If and only if $P(A)$ is either 0 of 1
+
+#### Exercise: Conditional independence
+Suppose that  and  are conditionally independent given . Suppose that $P(C) > 0$ and $P(C^c) > 0$.
+- Are $A$ and $B^c$  guaranteed to be conditionally independent given $C$?
+  - YES
+  - We have seen that in any probability model, independence of  and  implies independence of  and . The conditional model (given ) is just another probability model, so this property remains true.
+- Are $A$ and $B$ guaranteed to be conditionally independent given $C^c$?
+  - NO
+  - This may be true in some special cases, e.g., if  and  both have zero probability.
+  - However, it is in general false.
+  - Suppose, for example, that events  and  have nonempty intersection inside , and are conditionally independent, but have empty intersection inside , which would make them dependent (given ).
+#### 12. Independence of a collection of events
+Let us start with intuition. We will say that a family of events are independent if knowledge about some of the events doesn't change my beliefs, my probability model, for the remaining events.
+**We will say that a collection of events are independent if you can calculate probabilities of intersections of these events by multiplying individual probabilities. And this should be possible for all choices of indices involved and for any number or events involved.**
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/c25006e1-994c-4be1-bb02-0abaab1c56a5)
+
+####  pairwise independence.
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/76e25b13-cbcb-40f9-b731-e5159af34db1)
+
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/c253d992-aa0e-445b-b6eb-116707f0079c)
+
+#### 13. Exercise: Independence of multiple events
+Suppose that A, B, C, and D are independent. Use intuitive reasoning (not a mathematical proof) to answer the following.
+- Is it guaranteed that $A \cap C$  is independent from $B^c \cap D$?
+  - YES
+  - The occurrence of event  contains information about  and , but provides no information on the occurrence of , , or for that matter, . Hence we have independence.
+- Is it guaranteed that $A \cap B^c \cap D$ is independent from $B^c \cup D^c$?
+  - NO
+  - Event D  influences both of the events $A \cap B^c \cap D$ and $B^c \cup D^c$, and therefore introduces a dependence between them. 
+  - For a more concrete argument, if we are told that event $A \cap B^c \cap D$  occurs, then we know that $D$  occurred. Therefore,  $D^c$ did not occur, and this generally reduces the probability of event $B^c \cup D^c$ .
+
 
