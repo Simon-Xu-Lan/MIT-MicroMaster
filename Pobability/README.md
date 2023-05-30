@@ -243,4 +243,96 @@ Suppose that A, B, C, and D are independent. Use intuitive reasoning (not a math
   - Event D  influences both of the events $A \cap B^c \cap D$ and $B^c \cup D^c$, and therefore introduces a dependence between them. 
   - For a more concrete argument, if we are told that event $A \cap B^c \cap D$  occurs, then we know that $D$  occurred. Therefore,  $D^c$ did not occur, and this generally reduces the probability of event $B^c \cup D^c$ .
 
+#### 14. Independence versus pairwise independence
+So in this example, H1, H2, and C are pairwise independent, but they're not independent in the sense of an independent collection of events.
+H1 by itself does not carry any useful information. But the two events together, H1 and H2, do carry useful information about C.
+So H1 and H2 carry information relevant to C. And therefore, C is not independent from these two events collectively. And we say that events H1. H2, and C are not independent.
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/42fa66bd-11e7-4301-a4cf-9aa836140992)
+
+## 15. Reliability
+- The analysis of reliability of a system that consists of independent units.
+
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/84945f23-5e7d-4e4e-9238-e40531a0f3b3)
+
+#### 16. Exercise: Reliability
+Suppose that each unit of a system is up with probability $2 \over 3$ and down with probability $1 \over 3$. Different units are independent. For each one of the systems shown below, calculate the probability that the whole system is up (that is, that there exists a path from the left end to the right end, consisting entirely of units that are up).
+1. What is the probability that the following system is up?
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/7ea145f0-fc8a-4270-8578-dc2c2306627e)
+
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/9c96f240-8781-4d10-b741-663415022f96)
+
+2. What is the probability that the following system is up?
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/b8dbf5e0-d450-47de-8819-72937390dc12)
+
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/04ba9589-7648-43bd-9fc6-fdbca6d5bf86)
+
+#### Discrete uniform law
+- The discrete uniform law says that when your sample space is discrete, and when the outcomes in your sample space are equally likely, then to compute the probability of any
+event A, you can simply count the number of outcomes in A and divide it by the total number of possible outcomes.
+
+#### 1. Conditional probability example
+Conditional probability example. We roll two fair 6-sided dice. Each one of the 36 possible outcomes is assumed to be equally likely.
+
+(a) Find the probability that doubles are rolled (i.e., both dice have the same number).
+
+(b) Given that the roll results in a sum of 4 or less, find the conditional probability that doubles are rolled.
+
+(c) Find the probability that at least one die roll is a 6.
+
+(d) Given that the two dice land on different numbers, find the conditional probability that at least one die roll is a 6.
+
+**Conditioning means you're now restricting your attention to a conditional universe.**
+**So essentially, we're going to find the number of outcomes in the conditional world. And then we're also going to compute the number of outcomes that comprise S in the conditional world.**
+**In conditional world, when you condition, the relative likelihoods of the various outcomes don't change. So in our original universe, all of the outcomes were equally likely. So in our conditional universe, all of the outcomes are equally likely.**
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/513973bc-78fd-4828-800f-722aaffebb08)
+
+#### 2. A chess tournament problem
+
+
+2. A chess tournament problem
+
+[video](https://learning.edx.org/course/course-v1:MITx+6.431x+2T2023/block-v1:MITx+6.431x+2T2023+type@sequential+block@sequential_Solved_problems/block-v1:MITx+6.431x+2T2023+type@vertical+block@ch4-s4-tab2)
+
+A chess tournament problem. This year's Belmont chess champion is to be selected by the following procedure. Bo and Ci, the leading challengers, first play a two-game match. If one of them wins both games, he gets to play a two-game second round with Al, the current champion. Al retains his championship unless a second round is required and the challenger beats Al in both games. If Al wins the initial game of the second round, no more games are played.
+
+Furthermore, we know the following:
+ The probability that Bo will beat Ci in any particular game is 0.6.
+ The probability that Al will beat Bo in any particular game is 0.5.
+ The probability that Al will beat Ci in any particular game is 0.7.
+
+Assume no tie games are possible and all games are independent.
+
+1. Determine the a priori probabilities that
+(a) the second round will be required.
+(b) Bo will win the first round.
+(c) Al will retain his championship this year.
+
+2. Given that the second round is required, determine the conditional probabilities that
+(a) Bo is the surviving challenger.
+(b) Al retains his championship.
+
+3. Given that the second round was required and that it comprised only one game, what is the conditional probability that it was Bo who won the first round?
+
+
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/5ef578b7-a26c-4a8b-85f5-253334325893)
+
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/c178431f-b60a-4123-9863-d1b4cf501231)
+
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/ff7c3bdd-0c45-421c-8f06-f11257b3ff77)
+
+#### 3. A coin tossing puzzle
+A coin tossing puzzle. A coin is tossed twice. Alice claims that the event of getting two Heads is at least as likely if we know that the first toss is Heads than if we know that at least one of the tosses is Heads. Is she right? Does it make a difference if the coin is fair or unfair? How can we generalize Alice's reasoning?
+
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/6caafcb9-1538-42e4-9861-595f61ac4ebd)
+
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/fc5bcda6-b492-464c-8dda-e5e3f0579fb0)
+
+
+
+
+
+
+
+
+
 
