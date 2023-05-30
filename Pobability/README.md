@@ -122,4 +122,14 @@ In words, the probability that an event occurs is a weighted average of the prob
 
 ![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/7389f534-86a1-4f7c-9751-96c78c51f47c)
 
-        
+### 13. Exercise: Bayes' rule and the false-positive puzzle
+A test for a certain rare disease is assumed to be correct  of the time: if a person has the disease, the test result is positive with probability , and if the person does not have the disease, the test result is negative with probability . A person drawn at random from a certain population has probability  of having the disease.
+1. Find the probability that a random person tests positive. 
+2. Given that the person just tested positive, what is the probability he actually has the disease?
+Let A be the event that the person has the desease, and B the event that the test result is positive.
+- The probability taht a random person tests positive is
+        - $P(B) = p(A)(P(B|A) + P(A^c)P(B|A^c) = 0.001 * 0.95 + 0.999 * 0.05 = 0.0509
+- Given that the person just tested positive, what is the probability he actually has the disease
+        - P(A|B) = P(A)P(B|A) \over {P(B)} = 0.001 * 0..95 \over {0.0509} \approx 0.01866
+
+
