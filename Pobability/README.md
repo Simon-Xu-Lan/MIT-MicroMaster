@@ -135,4 +135,16 @@ Let A be the event that the person has the desease, and B the event that the tes
 
   $P(A|B) = {P(A)P(B|A) \over P(B)} = {0.001 * 0..95 \over 0.0509} = 0.01866$
 
+# Independence
+But if the conditional probability turns out to be the same as the unconditional probability, then the occurrence of event A does not carry any useful information on whether event B will occur. **In such a case, we say that events A and B are independent.**
 
+### 2. A coin tossing example
+
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/a2b44d7d-d8b0-49c2-a8a7-11a99080a59f)
+
+**The intuitive meaning of Independence**: 
+- Two events are independent if the occurrence of one event does not change our beliefs about the other.
+- It does not affect the probability that the other event also occurs.
+- When do we have independence in the real world?
+        - The typical case is when the occurrence or non-occurrence of each of the two events A and B is determined by two physically distinct and non-interacting processes.
+        - For example, whether my coin results in heads and whether it will be snowing on New Year's Day are two events that should be modeled as independent.
