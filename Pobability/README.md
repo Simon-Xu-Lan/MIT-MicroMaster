@@ -183,4 +183,4 @@ But if the conditional probability turns out to be the same as the unconditional
 - Let A  be an event, a subset of the sample space $\Omega$ . Are A and $\Omega$ independent?
 - Solution:
   - Yes, they are independent. Because $P(A \cap \Omega) = P(A) = P(A) * 1 = P(A) * P(\Omega)$
-  - Intuitively,  $P(A)$ represents our beliefs about the likelihood that A will occur. If we are told that $\Omega$ occurred, this does not give us any new information; we already knew that $\Omega$ is certain to occur. For this reason, P(A | {\Omega}) = P(A).
+  - Intuitively,  $P(A)$ represents our beliefs about the likelihood that A will occur. If we are told that $\Omega$ occurred, this does not give us any new information; we already knew that $\Omega$ is certain to occur. For this reason, $P(A | \Omega) = P(A)$.
