@@ -132,7 +132,7 @@ Let A be the event that the person has the desease, and B the event that the tes
   $P(B) = p(A)(P(B|A) + P(A^c)P(B|A^c) = 0.001 * 0.95 + 0.999 * 0.05 = 0.0509$
   
 - Given that the person just tested positive, what is the probability he actually has the disease
-- 
-  $P(A|B) = P(A)P(B|A) \over {P(B)} = 0.001 * 0..95 \over {0.0509} \approx 0.01866$
+
+  $P(A|B) = P(A)P(B|A) \over {P(B)} = 0.001 * 0..95 \over {0.0509} = 0.01866$
 
 
