@@ -195,6 +195,6 @@ But if the conditional probability turns out to be the same as the unconditional
 #### if A and B are independent, then A and $B^c$ are also indepedent.
 ![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/e1c195f7-a011-49bb-9529-87e0aeb0c340)
 
-**$A$ and $B$ independent => $A$ and $B^c$ independent => $B^c$ and $A$ independent => $B^c$ and $A^c$ independent => $A^c$ and $B^c$ independent
+**$A$ and $B$ independent => $A$ and $B^c$ independent => $B^c$ and $A$ independent => $B^c$ and $A^c$ independent => $A^c$ and $B^c$ independent**
    
 
