@@ -327,6 +327,74 @@ A coin tossing puzzle. A coin is tossed twice. Alice claims that the event of ge
 
 ![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/fc5bcda6-b492-464c-8dda-e5e3f0579fb0)
 
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/8f58e7c1-6fd6-4ab3-991e-400bdb20c0d5)
+
+#### 4. The Monty Hall problem
+The Monty Hall problem. This is a much discussed puzzle, based on an old American game show. You are told that a prize is equally likely to be found behind any one of three closed doors in front of you. You point to one of the doors. A friend opens for you one of the remaining two doors, after making sure that the prize is not behind it. At this point, you can stick to your initial choice, or switch to the other unopened door. You win the prize if it lies behind your final choice of a door. Consider the following strategies:
+
+Stick to your initial choice.
+
+Switch to the other unopened door.
+
+You first point to door 1. If door 2 is opened, you do not switch. If door 3 is opened, you switch.
+
+Which is the best strategy?
+
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/3f62516c-a060-46f3-b328-e3143423ea15)
+
+#### 5. A random walker
+A random walker. Imagine a drunk tightrope walker, who manages to keep his balance, but takes a step forward with probability  and takes a step back with probability .
+
+(a) What is the probability that after two steps, the tightrope walker will be at the same place on the rope as where he started?
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/ba2f6d23-65c0-458e-aba1-aaade88818d6)
+
+(b) What is the probability that after three steps, the tightrope walker will be one step forward from where he started?
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/3fadc3ef-5270-4b15-9a1d-66fab5e6a123)
+
+(c) Given that after three steps he has managed to move ahead one step, what is the probability that the first step he took was a step forward?
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/7a1663b7-d4f0-4a41-bfc8-dc66b1291e21)
+
+#### 6. Communication over a noisy channel
+Communication over a noisy channel. A source transmits a message (a string of symbols) over a noisy communication channel. Each symbol is  or  with probability  and , respectively, and is received incorrectly with probability  and , respectively (see the figure below). Errors in different symbol transmissions are independent.
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/63a5264a-4c4e-4c90-994d-0fc13ca067f5)
+
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/5a156729-8c71-4e2e-bf86-b142eb99d418)
+
+(a) What is the probability that the th symbol is received correctly?
+
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/07a2285b-e292-44f5-936d-de3ec7c11d40)
+
+(b) What is the probability that the string of symbols  is received correctly?、
+- Each bit is independent
+
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/9e2d39f1-2f0d-4072-a86a-a6953e284bcf)
+
+(c) In an effort to improve reliability, each symbol is transmitted three times and the received string is decoded by majority rule. In other words, a  (or ) is transmitted as  (or , respectively), and it is decoded at the receiver as a  (or ) if and only if the received three-symbol string contains at least two 's (or 's, respectively). What is the probability that a  is correctly decoded?
+
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/2b3512f6-a0a9-41be-a7e2-0de44b2e066c)
+
+(d) For what values of  is there an improvement in the probability of correct decoding of a  when the scheme of part (c) is used?
+
+
+(e) Suppose that the scheme of part (c) is used. What is the probability that a symbol was 0 given that the received string is 101?
+- Application of Bayes Rule
+
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/58c8e39d-415b-48e0-8bdb-d33f79e651cd)
+
+#### 7. Network reliability
+Network reliability. An electrical system consists of identical components, each of which is operational with probability , independent of other components. The components are connected in three subsystems, as shown in the figure. The system is operational if there is a path that starts at point , ends at point , and consists of operational components. What is the probability of this happening?
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/798230c2-a259-4eae-be3a-e66563e96233)
+
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/df58d00c-e217-4737-8d50-57105fac7a8f)
+
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/9a664ef6-243d-4286-a7d3-0fa344507b55)
+
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/23b20487-f6dc-4750-ab65-0a76c3c4bc5f)
+
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/aa1b770b-bfa4-4428-a3f3-f29c35c1467f)
+
+
+
 
 
 
