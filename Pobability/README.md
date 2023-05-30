@@ -178,3 +178,9 @@ But if the conditional probability turns out to be the same as the unconditional
 - Solution:
   - Intuitively, the occurrence of event  gives us information on whether event  will occur, and therefore the two events are dependent.
   - Mathematically, $P(A) = P(B) = P(A \cap B) = {1 \over 2}$, so taht $P(A \cap B) \neq P(A)P(B)$
+
+#### 5. Exercise: Independence of two events - II
+- Let A  be an event, a subset of the sample space $\omega$ . Are A and $\omega$ independent?
+- Solution:
+  - Yes, they are independent. Because $P(A \cap \oemga) = P(A) = P(A) * 1 = P(A) * P(\omega)$
+  - Intuitively,  $P(A)$ represents our beliefs about the likelihood that A will occur. If we are told that $\omega$ occurred, this does not give us any new information; we already knew that $\omega$ is certain to occur. For this reason, P(A | \omega) = P(A).
