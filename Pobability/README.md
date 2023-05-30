@@ -139,12 +139,39 @@ Let A be the event that the person has the desease, and B the event that the tes
 But if the conditional probability turns out to be the same as the unconditional probability, then the occurrence of event A does not carry any useful information on whether event B will occur. **In such a case, we say that events A and B are independent.**
 
 ### 2. A coin tossing example
+- Each particular branch corresponds to a sequence of possible results in the different stages, 
+- and the leaves of this tree correspond to the possible outcomes.
 
 ![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/a2b44d7d-d8b0-49c2-a8a7-11a99080a59f)
 
 **The intuitive meaning of Independence**: 
-- Two events are independent if the occurrence of one event does not change our beliefs about the other.
-- It does not affect the probability that the other event also occurs.
+- Intuitive "defination": $P(B|A) = P(B)$
+        - The occurrence of A provides no new information about B.
+        - In such case, we may say taht event B is independent from event A.
+- Formal Definition of Independence: $P(A \cap B) = P(A)P(B)$
+        - The formal definition is symmetric with respect to the roles of A and B. So instead of saying that B is independent from A, we can also say A is independent from B.
+        - A and B are independent of each other.
+        - Namely, that the conditional probability of A given B is the same as the unconditional probability of A.
+        - In contrast, this new definition makes sense even when we're dealing with zero probability events.
+#### Disjoint vs Independence
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/e365aff1-71ff-4e1b-b7b1-8d4031cf89db)
+- two events, A and B, both of which have positive probability.
+- two events are disjoint.
+- They do not have any common elements. **Are these two events independent?**
+- The probability that both A and B occur is zero because the two events are disjoint. They cannot happen together.
+- The following two expressions are different from each other
+  - $P(A \cap B) = 0$
+  - $P(A)P(B) > 0$
+  - **Conclusion: two events are not independent**
+- In fact, intuitively, these two events are as dependent as Siamese twins. If you know that A occurred, then you are sure that B did not occur.
+- So the occurrence of A tells you a lot about the occurrence or non-occurrence of B.
+**Being independent is somthing completely different from being disjoint.**
+- Independence is a relation about information. It is important to always keep in mind the intuitive meaning of independence.
+  - **Two events are independent if the occurrence of one event does not change our beliefs about the other.**
+  - **It does not affect the probability that the other event also occurs.**
 - When do we have independence in the real world?
         - The typical case is when the occurrence or non-occurrence of each of the two events A and B is determined by two physically distinct and non-interacting processes.
         - For example, whether my coin results in heads and whether it will be snowing on New Year's Day are two events that should be modeled as independent.
+ #### 4. Exercise: Independence of two events - I
+ We have a peculiar coin. When tossed twice, the first toss results in Heads with probability . However, the second toss always yields the same result as the first toss. Thus, the only possible outcomes for a sequence of 2 tosses are  and , and both have equal probabilities. Are the two events $A = \{Heads in the first toss\}$  and $B = \{Heads in the second toss\}$ independent?
+- 
