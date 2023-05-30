@@ -184,3 +184,17 @@ But if the conditional probability turns out to be the same as the unconditional
 - Solution:
   - Yes, they are independent. Because $P(A \cap \Omega) = P(A) = P(A) * 1 = P(A) * P(\Omega)$
   - Intuitively,  $P(A)$ represents our beliefs about the likelihood that A will occur. If we are told that $\Omega$ occurred, this does not give us any new information; we already knew that $\Omega$ is certain to occur. For this reason, $P(A | \Omega) = P(A)$.
+
+#### 6. Exercise: Independence of two events - III
+- When is an event  independent of itself?
+- Solution:
+  - If and only if $P(A)$ is either 0 of 1
+ 
+ ![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/50c20e89-deb7-44ac-bca3-b2ece0099b05)
+
+#### if A and B are independent, then A and $B^c$ are also indepedent.
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/e1c195f7-a011-49bb-9529-87e0aeb0c340)
+
+**$A$ and $B$ independent => $A$ and $B^c$ independent => $B^c$ and $A$ independent => $B^c$ and $A^c$ independent => $A^c$ and $B^c$ independent
+   
+
