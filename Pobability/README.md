@@ -174,7 +174,7 @@ But if the conditional probability turns out to be the same as the unconditional
         - For example, whether my coin results in heads and whether it will be snowing on New Year's Day are two events that should be modeled as independent.
 #### 4. Exercise: Independence of two events - I
  
-- We have a peculiar coin. When tossed twice, the first toss results in Heads with probability . However, the second toss always yields the same result as the first toss. Thus, the only possible outcomes for a sequence of 2 tosses are  and , and both have equal probabilities. Are the two events $A = {Heads in the first toss\right}$  and $B = \{Heads in the second toss\}$ independent?
+- We have a peculiar coin. When tossed twice, the first toss results in Heads with probability . However, the second toss always yields the same result as the first toss. Thus, the only possible outcomes for a sequence of 2 tosses are  and , and both have equal probabilities. Are the two events $A = {Heads in the first toss}$  and $B = \{Heads in the second toss\}$ independent?
 - Solution:
   - Intuitively, the occurrence of event  gives us information on whether event  will occur, and therefore the two events are dependent.
   - Mathematically, $P(A) = P(B) = P(A \cap B) = {1 \over 2}$, so taht $P(A \cap B) \neq P(A)P(B)$
