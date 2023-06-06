@@ -401,6 +401,37 @@ Network reliability. An electrical system consists of identical components, each
 
 ![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/c21aaccc-204d-4ebd-89a0-c4210ff45906)
 
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/37c837b1-b57b-4244-a125-b1f181d3eb31)
+
+
+#### 2. Rooks on a chessboard
+- Rooks on a chessboard. Eight rooks are placed in distinct squares of an  chessboard, with all possible placements being equally likely. Find the probability that all the rooks are safe from one another, i.e., that there is no row or column with more than one rook.
+
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/271ec45e-c874-48b6-8555-79a4c2cdf02f)
+
+#### 3. Hypergeometric probabilities
+- Hypergeometric probabilities. An urn contains  balls, out of which exactly  are red. We select  of the balls at random, without replacement (i.e., selected balls are not put back into the urn before the next selection). What is the probability that  of the selected balls are red?
+- Teaching assistant: Kuang Xu
+
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/8e2ac521-b0e0-4bd8-94f3-13d8ac100213)
+
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/dda596ff-251b-499b-9bda-04872fc9d3e8)
+
+#### 4. Multinomial probabilities
+Multinomial probabilities. An urn contains balls of  different colors. We draw  balls, with different draws being independent. For any given draw, there is a probability , , of getting a ball of color . Here, the 's are nonnegative numbers that sum to 1.
+
+Let  be nonnegative integers that sum to . What is the probability that we obtain exactly  balls of color , for each ?
+
+Instructor: John Tsitsiklis
+
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/f476959f-73ab-450c-a39f-263e5043e72b)
+
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/cc2539c3-c168-4d98-8b6c-1dbc0568a7c9)
+
+
+
+
+
 
 
 
