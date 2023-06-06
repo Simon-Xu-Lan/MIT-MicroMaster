@@ -396,6 +396,11 @@ Network reliability. An electrical system consists of identical components, each
 
 
 
+#### 1. The birthday problem
+- The birthday problem. Consider  people who are attending a party. We assume that every person has an equal probability of being born on any day during the year, independently of everyone else, and ignore the additional complication presented by leap years (i.e., nobody is born on February 29). What is the probability that each person has a distinct birthday?
+
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/c21aaccc-204d-4ebd-89a0-c4210ff45906)
+
 
 
 
