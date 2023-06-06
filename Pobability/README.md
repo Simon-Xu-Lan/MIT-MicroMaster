@@ -429,6 +429,36 @@ Instructor: John Tsitsiklis
 ![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/cc2539c3-c168-4d98-8b6c-1dbc0568a7c9)
 
 
+## Problems
+### 1. Customers arriving at a restaurant
+Six customers enter a three-floor restaurant. Each customer decides on which floor to have dinner. Assume that the decisions of different customers are independent, and that for each customer, each floor is equally likely. Find the probability that exactly one customer dines on the first floor.
+
+<img width="589" alt="image" src="https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/3142bd31-62b9-43b8-b12a-010449e58f7e">
+
+### 2. A three-sided die
+#### A three-sided die, part 1
+The newest invention of the 6.431x staff is a three-sided die. On any roll of this die, the result is 1 with probability 1/2, 2 with probability 1/4, and 3 with probability 1/4.
+Consider a sequence of six independent rolls of this die.
+Find the probability that exactly two of the rolls result in a 3.
+
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/94b5ff3e-5f98-4633-9d35-b4aa7cc37357)
+
+
+
+#### A three-sided die, part 2
+1. Given that exactly two of the six rolls resulted in a 1, find the probability that the first roll resulted in a 1.
+
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/b4489619-c4a7-40df-861b-d74ccd77e36f)
+
+2. We are told that exactly three of the rolls resulted in a 1 and exactly three rolls resulted in a 2. Given this information, find the probability that the six rolls resulted in the sequence .
+
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/bb043eb0-8229-4a31-99d0-481466adfe87)
+
+3. The folloiwng figure
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/7c58123c-ebcd-438b-bb35-9bb91b8f424a)
+
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/b0110c9a-20a9-48a6-89a7-6f3e949ecb00)
+
 
 
 
