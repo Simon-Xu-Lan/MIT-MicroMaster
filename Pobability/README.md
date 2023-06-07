@@ -475,7 +475,20 @@ Out of five men and five women, we form a committee consisting of four different
 ![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/290e9896-a1f1-4183-aadd-59adb88bfc6d)
 
 
+#### 4 Proving binomial identities via counting
+Binomial identities (i.e., identities involving binomial coefficients) can often be proved via a counting interpretation. For each of the binomial identities given below, select the counting problem that can be used to prove it.
 
+- Out of  people, we want to choose a committee of  people, one of whom will be its chair. In how many different ways can this be done?
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/86a374f5-1c9a-4a62-aa03-c375cfa93f6c)
+
+- In a group of  people, consisting of  boys and  girls, we want to select a committee of  people. In how many ways can this be done?
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/ce477c7b-588f-4a5c-900f-9fd87d02c232)
+
+- How many subsets does a set with  elements have?
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/3f4520cc-609d-47b3-a836-f4b5cd1a3a95)
+
+- Out of  people, we want to form a committee consisting of a chair and other members. We allow the committee size to be any integer in the range 1, 2, ... n . How many choices do we have in selecting a committee-chair combination?
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/677ac39c-0985-4b02-ac76-87d4471b8446)
 
 
 
