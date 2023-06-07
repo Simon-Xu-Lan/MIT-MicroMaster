@@ -459,6 +459,22 @@ Find the probability that exactly two of the rolls result in a 3.
 
 ![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/b0110c9a-20a9-48a6-89a7-6f3e949ecb00)
 
+#### 3. Forming a committee
+Out of five men and five women, we form a committee consisting of four different people. Assuming that each committee of size four is equally likely, find the probabilities of the following events:
+
+1. The committee consists of two men and two women.
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/fe8dbfea-566f-4e24-952f-ffa38225a971)
+
+2. The committee has more women than men.
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/48e872bd-2e2c-4d7a-ad5f-081230357d9a)
+
+3. The committee has at least one man.
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/83cdb34a-78b3-4e2f-a3be-25eebef566b3)
+
+4. Both Alice and Bob are members of the committee.
+![image](https://github.com/Simon-Xu-Lan/MIT-MicroMaster/assets/60492659/290e9896-a1f1-4183-aadd-59adb88bfc6d)
+
+
 
 
 
